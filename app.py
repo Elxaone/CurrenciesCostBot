@@ -1,7 +1,7 @@
 import telebot
 from extensions import ConvertionException, CurrenciesConverter
-from keys import keys
-from tn import TOKEN
+from keys import *
+
 
 bot = telebot.TeleBot(TOKEN)
 
